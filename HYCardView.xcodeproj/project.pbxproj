@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		18F9CF9A1C17CA6600DEA030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF991C17CA6600DEA030 /* main.m */; };
 		18F9CF9D1C17CA6600DEA030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF9C1C17CA6600DEA030 /* AppDelegate.m */; };
-		18F9CFA01C17CA6600DEA030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CF9F1C17CA6600DEA030 /* ViewController.m */; };
 		18F9CFA31C17CA6600DEA030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CFA11C17CA6600DEA030 /* Main.storyboard */; };
 		18F9CFA51C17CA6600DEA030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CFA41C17CA6600DEA030 /* Assets.xcassets */; };
 		18F9CFA81C17CA6600DEA030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F9CFA61C17CA6600DEA030 /* LaunchScreen.storyboard */; };
 		18F9CFB31C17CA6700DEA030 /* HYCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CFB21C17CA6700DEA030 /* HYCardViewTests.m */; };
 		18F9CFBE1C17CA6700DEA030 /* HYCardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CFBD1C17CA6700DEA030 /* HYCardViewUITests.m */; };
+		18F9CFCE1C17CB9600DEA030 /* HYCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CFCD1C17CB9600DEA030 /* HYCardViewController.m */; };
+		18F9CFD31C17CD8500DEA030 /* HYCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CFD11C17CD8500DEA030 /* HYCardCollectionViewCell.m */; };
+		18F9CFDC1C180BF600DEA030 /* HYCustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9CFDB1C180BF600DEA030 /* HYCustomFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		18F9CF991C17CA6600DEA030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F9CF9B1C17CA6600DEA030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F9CF9C1C17CA6600DEA030 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F9CF9E1C17CA6600DEA030 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18F9CF9F1C17CA6600DEA030 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18F9CFA21C17CA6600DEA030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F9CFA41C17CA6600DEA030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F9CFA71C17CA6600DEA030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,12 @@
 		18F9CFB91C17CA6700DEA030 /* HYCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9CFBD1C17CA6700DEA030 /* HYCardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCardViewUITests.m; sourceTree = "<group>"; };
 		18F9CFBF1C17CA6700DEA030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F9CFCC1C17CB9600DEA030 /* HYCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYCardViewController.h; path = "card view/HYCardViewController.h"; sourceTree = "<group>"; };
+		18F9CFCD1C17CB9600DEA030 /* HYCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYCardViewController.m; path = "card view/HYCardViewController.m"; sourceTree = "<group>"; };
+		18F9CFD01C17CD8500DEA030 /* HYCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYCardCollectionViewCell.h; path = "card view/cell/HYCardCollectionViewCell.h"; sourceTree = "<group>"; };
+		18F9CFD11C17CD8500DEA030 /* HYCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYCardCollectionViewCell.m; path = "card view/cell/HYCardCollectionViewCell.m"; sourceTree = "<group>"; };
+		18F9CFDA1C180BF600DEA030 /* HYCustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYCustomFlowLayout.h; path = "card view/custom flow layout/HYCustomFlowLayout.h"; sourceTree = "<group>"; };
+		18F9CFDB1C180BF600DEA030 /* HYCustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYCustomFlowLayout.m; path = "card view/custom flow layout/HYCustomFlowLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,9 @@
 		18F9CF971C17CA6600DEA030 /* HYCardView */ = {
 			isa = PBXGroup;
 			children = (
+				18F9CFCB1C17CA7D00DEA030 /* card view */,
 				18F9CF9B1C17CA6600DEA030 /* AppDelegate.h */,
 				18F9CF9C1C17CA6600DEA030 /* AppDelegate.m */,
-				18F9CF9E1C17CA6600DEA030 /* ViewController.h */,
-				18F9CF9F1C17CA6600DEA030 /* ViewController.m */,
 				18F9CFA11C17CA6600DEA030 /* Main.storyboard */,
 				18F9CFA41C17CA6600DEA030 /* Assets.xcassets */,
 				18F9CFA61C17CA6600DEA030 /* LaunchScreen.storyboard */,
@@ -138,6 +143,35 @@
 				18F9CFBF1C17CA6700DEA030 /* Info.plist */,
 			);
 			path = HYCardViewUITests;
+			sourceTree = "<group>";
+		};
+		18F9CFCB1C17CA7D00DEA030 /* card view */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CFD91C180BB300DEA030 /* custom flow layout */,
+				18F9CFCF1C17CD3F00DEA030 /* cell */,
+				18F9CFCC1C17CB9600DEA030 /* HYCardViewController.h */,
+				18F9CFCD1C17CB9600DEA030 /* HYCardViewController.m */,
+			);
+			name = "card view";
+			sourceTree = "<group>";
+		};
+		18F9CFCF1C17CD3F00DEA030 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CFD01C17CD8500DEA030 /* HYCardCollectionViewCell.h */,
+				18F9CFD11C17CD8500DEA030 /* HYCardCollectionViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		18F9CFD91C180BB300DEA030 /* custom flow layout */ = {
+			isa = PBXGroup;
+			children = (
+				18F9CFDA1C180BF600DEA030 /* HYCustomFlowLayout.h */,
+				18F9CFDB1C180BF600DEA030 /* HYCustomFlowLayout.m */,
+			);
+			name = "custom flow layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F9CFA01C17CA6600DEA030 /* ViewController.m in Sources */,
+				18F9CFD31C17CD8500DEA030 /* HYCardCollectionViewCell.m in Sources */,
+				18F9CFDC1C180BF600DEA030 /* HYCustomFlowLayout.m in Sources */,
+				18F9CFCE1C17CB9600DEA030 /* HYCardViewController.m in Sources */,
 				18F9CF9D1C17CA6600DEA030 /* AppDelegate.m in Sources */,
 				18F9CF9A1C17CA6600DEA030 /* main.m in Sources */,
 			);

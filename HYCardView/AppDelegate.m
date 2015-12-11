@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HYCardViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    HYCardViewController *vc = [[HYCardViewController alloc] init];
+    vc.dataArr = @[@"测试item", @"测试item", @"测试item", @"测试item", @"测试item", @"测试item", @"测试item", @"测试item", @"测试item"];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
